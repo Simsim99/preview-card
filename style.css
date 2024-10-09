@@ -80,12 +80,31 @@ h1 {
 @media (min-width: 48rem) {
   .all {
     width: 600px;
-    padding-top: 30px;
+    padding-bottom: 0;
+    height: 450px;
     flex-direction: row;
-    padding-right: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .text-info {
+    margin-top: 40px;
+  }
+  .p1 {
+    margin-bottom: 20px;
+  }
+  .name {
+    margin-bottom: 30px;
+  }
+  .price {
+    margin-bottom: 30px;
   }
   button {
-    width: 100%;
+    width: 90%;
     padding: 15px 60px;
+  }
+  .image img {
+    max-inline-size: 100%;
+    block-size: auto;
+    border-radius: 0;
   }
 }
