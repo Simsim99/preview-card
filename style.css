@@ -61,6 +61,7 @@ button {
   color: white;
   gap: 10px;
   font-weight: 700;
+  cursor: pointer;
 }
 span {
   margin-left: 20px;
@@ -106,5 +107,8 @@ h1 {
     max-inline-size: 100%;
     block-size: auto;
     border-radius: 0;
+  }
+  button:hover {
+    background-color: hsl(212, 21%, 14%);
   }
 }
